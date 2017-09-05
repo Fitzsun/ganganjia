@@ -1,0 +1,255 @@
+dd {
+  margin: 0;
+  padding: 0;
+}
+.show {
+  display: block;
+}
+.active {
+  background: #76c0ff;
+}
+.active a {
+  color: #fff;
+}
+#banner {
+  width: 100%;
+  height: 400px;
+  background: url('../../../public-resource/imgs/company-desc/banner.jpg') no-repeat scroll center;
+}
+.section {
+  width: 100%;
+}
+.section .container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.section .container .list-item {
+  width: 700px;
+  margin: 50px auto;
+}
+.section .container .list-item li {
+  float: left;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  line-height: 30px;
+  text-align: center;
+  margin-left: 50px;
+  border-radius: 15px;
+  border: 1px solid #76c0ff;
+}
+.section .container .list-item li:first-child {
+  margin-left: 0;
+}
+.section .container .list-item li:hover {
+  background: #76c0ff;
+}
+.section .container .list-item li:hover a {
+  color: #fff;
+}
+.section .container .list-item li a {
+  width: 100%;
+  height: 100%;
+}
+.section .container .company-introduce {
+  position: relative;
+}
+.section .container .company-introduce .desc dl {
+  font-size: 14px;
+  position: absolute;
+  width: 615px;
+  top: 50%;
+  transform: translateY(-70%);
+  right: 0;
+}
+.section .container .company-introduce .desc dl dt {
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+  margin: 20px 0;
+}
+.section .container .company-introduce .company-concept {
+  display: none;
+  width: 100%;
+  height: 570px;
+  position: relative;
+  padding: 100px;
+  background: url("../../../public-resource/imgs/company-desc/company-concept.png") no-repeat scroll center;
+}
+.section .container .company-introduce .company-concept > p {
+  position: absolute;
+  top: 193px;
+  left: 35px;
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #f00;
+}
+.section .container .company-introduce .company-concept > p > span {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  font-size: 20px;
+  color: #f00;
+  background-color: #fff;
+}
+.section .container .company-introduce .company-concept > p > span:last-child {
+  background: #f00;
+  color: #fff;
+}
+.section .container .company-introduce .company-concept > div {
+  font-size: 14px;
+  color: #666;
+  margin: 0 auto;
+  width: 855px;
+  height: 250px;
+  overflow: hidden;
+}
+.section .container .company-introduce .company-honor {
+  display: none;
+  width: 100%;
+  height: 479px;
+  position: relative;
+  background: url("../../../public-resource/imgs/company-desc/honor-background.png") no-repeat scroll center;
+}
+.section .container .company-introduce .company-honor p {
+  font-size: 12px;
+}
+.section .container .company-introduce .company-honor .boxa,
+.section .container .company-introduce .company-honor .boxb,
+.section .container .company-introduce .company-honor .boxc,
+.section .container .company-introduce .company-honor .boxd,
+.section .container .company-introduce .company-honor .boxe,
+.section .container .company-introduce .company-honor .boxf {
+  width: 150px;
+  position: absolute;
+  text-align: center;
+}
+.section .container .company-introduce .company-honor .boxa {
+  left: 440px;
+  bottom: 150px;
+}
+.section .container .company-introduce .company-honor .boxb {
+  left: 50px;
+  bottom: 50px;
+}
+.section .container .company-introduce .company-honor .boxc {
+  left: 230px;
+  bottom: 100px;
+}
+.section .container .company-introduce .company-honor .boxd {
+  left: 780px;
+  bottom: 305px;
+}
+.section .container .company-introduce .company-honor .boxe {
+  left: 1000px;
+  bottom: 340px;
+}
+.section .container .company-introduce .company-honor .boxf {
+  left: 620px;
+  bottom: 215px;
+}
+.section .container .company-culture {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  margin: 50px 0 30px;
+  background: url("../../../public-resource/imgs/company-desc/company-culture.jpg") no-repeat scroll center;
+}
+.section .container .company-culture div {
+  position: absolute;
+  left: 250px;
+  top: 70px;
+}
+.section .container .company-culture div dl {
+  font-size: 14px;
+  color: #fff;
+  margin: 20px 0;
+}
+.section .container .company-culture div dl dd:first-child {
+  float: left;
+  text-align: right;
+  padding-right: 40px;
+  width: 100px;
+  font-size: 16px;
+  white-space: nowrap;
+}
+.section .container .introduce {
+  position: relative;
+  width: 100%;
+  height: 521px;
+}
+.section .container .introduce P {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 650px;
+  padding-left: 20px;
+  font-size: 14px;
+}
+.brand-story {
+  width: 100%;
+  height: 379px;
+  background: url("../../../public-resource/imgs/company-desc/brand-story.jpg") no-repeat scroll center;
+}
+.brand-story > div {
+  width: 1200px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.brand-story > div dl {
+  position: absolute;
+  width: 400px;
+  left: 110px;
+  top: 155px;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+.brand-story > div dl dt {
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+.brand-story > div dl > dd:first-of-type {
+  margin: 20px 0 50px;
+  font-size: 20px;
+}
+.brand-story > div dl > dd:last-of-type {
+  font-size: 14px;
+}
+.brand-story > div p {
+  position: absolute;
+  font-size: 14px;
+  width: 550px;
+  right: 50px;
+  top: 160px;
+  margin-left: 550px;
+  color: #fff;
+}
+.friendly-link {
+  width: 100%;
+}
+.friendly-link > div {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px 0;
+}
+.friendly-link > div p {
+  font-size: 18px;
+}
+.friendly-link > div li {
+  float: left;
+  width: 180px;
+}
+.friendly-link > div li a {
+  font-size: 14px;
+}
+#footer .contact-us p {
+  margin: 50px 0;
+}
+#footer form input:last-child {
+  margin-top: 42px;
+}

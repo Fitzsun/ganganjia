@@ -1,0 +1,99 @@
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+#banner {
+  width: 100%;
+  height: 400px;
+  background: url("../../../public-resource/imgs/company-scope/banner.jpg") no-repeat scroll center;
+}
+#content {
+  width: 100%;
+}
+#content .wrapper {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+#content .wrapper .list-item {
+  margin-top: 145px;
+  width: 100%;
+  height: 315px;
+}
+#content .wrapper .list-item > li {
+  width: 200px;
+  height: 210px;
+  float: left;
+  position: relative;
+}
+#content .wrapper .list-item > li:first-child {
+  transform: translateY(105px);
+}
+#content .wrapper .list-item > li:nth-child(2) > div,
+#content .wrapper .list-item > li:nth-child(2) > dl {
+  transform: translateX(-8px);
+}
+#content .wrapper .list-item > li:nth-child(3) {
+  transform: translateY(105px);
+}
+#content .wrapper .list-item > li:nth-child(3) > div,
+#content .wrapper .list-item > li:nth-child(3) > dl {
+  transform: translateX(-16px);
+}
+#content .wrapper .list-item > li:nth-child(4) > div,
+#content .wrapper .list-item > li:nth-child(4) dl {
+  transform: translateX(-24px);
+}
+#content .wrapper .list-item > li:nth-child(5) {
+  transform: translateY(105px);
+}
+#content .wrapper .list-item > li:nth-child(5) > div,
+#content .wrapper .list-item > li:nth-child(5) dl {
+  transform: translateX(-32px);
+}
+#content .wrapper .list-item > li:last-child > div,
+#content .wrapper .list-item > li:last-child dl {
+  transform: translateX(-41px);
+}
+#content .wrapper .list-item > li dl {
+  position: absolute;
+  top: 100%;
+  left: 60px;
+}
+#content .wrapper .list-item > li dl dt {
+  padding: 5px 0 5px 20px;
+  color: #76c0ff;
+  font-size: 16px;
+  margin: 30px 0 20px 0;
+  border-left: 2px solid #76c0ff;
+}
+#content .wrapper .list-item > li dl dd {
+  padding-left: 20px;
+  margin: 10px 0;
+  font-size: 14px;
+  white-space: nowrap;
+}
+#content .wrapper .friendly-link {
+  width: 1200px;
+  margin: 300px auto 0;
+  text-align: left;
+  padding: 50px 0;
+}
+#content .wrapper .friendly-link p {
+  font-size: 18px;
+}
+#content .wrapper .friendly-link li {
+  float: left;
+  width: 180px;
+}
+#content .wrapper .friendly-link li a {
+  font-size: 14px;
+}
+#footer .contact-us p {
+  margin: 50px 0;
+}
+#footer form input:last-child {
+  margin-top: 42px;
+}

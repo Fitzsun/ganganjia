@@ -1,0 +1,104 @@
+#banner {
+  width: 100%;
+  height: 400px;
+  background: url("../../../public-resource/imgs/feedback/banner.jpg") no-repeat scroll center;
+}
+#content {
+  width: 100%;
+}
+#content .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+#content .wrapper .suggestion {
+  width: 100%;
+  height: 822px;
+  padding-top: 184px;
+  background: url("../../../public-resource/imgs/feedback/background.png") no-repeat scroll -131px 0;
+}
+#content .wrapper .suggestion > div {
+  width: 890px;
+  margin-left: 285px;
+}
+#content .wrapper .suggestion > div p {
+  line-height: 30px;
+}
+#content .wrapper .suggestion > div input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+  outline: none;
+  padding: 12px 28px;
+  border-radius: 5px;
+  border: 1px solid #76c0ff;
+}
+#content .wrapper .suggestion > div input:first-of-type {
+  margin-top: 64px;
+}
+#content .wrapper .suggestion > div ::-webkit-input-placeholder {
+  color: #999;
+}
+#content .wrapper .suggestion > div :-ms-input-placeholder {
+  color: #999;
+}
+#content .wrapper .suggestion > div ::-moz-placeholder {
+  color: #999;
+}
+#content .wrapper .suggestion > div :-moz-placeholder {
+  color: #999;
+}
+#content .wrapper .suggestion > div div {
+  width: 100%;
+  height: 100px;
+  outline: none;
+  padding: 12px 28px;
+  margin-bottom: 80px;
+  border-radius: 5px;
+  border: 1px solid #76c0ff;
+}
+#content .wrapper .suggestion > div [contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: #999;
+}
+#content .wrapper .suggestion > div button {
+  display: block;
+  background: #76c0ff;
+  color: #fff;
+  height: 40px;
+  width: 300px;
+  outline: none;
+  margin: 0 auto;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px rgba(118, 192, 255, 0.5);
+}
+#content .wrapper .suggestion > div button a {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+}
+#content .wrapper .friendly-link {
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  padding: 50px 0;
+}
+#content .wrapper .friendly-link p {
+  font-size: 18px;
+}
+#content .wrapper .friendly-link li {
+  float: left;
+  width: 180px;
+}
+#content .wrapper .friendly-link li a {
+  font-size: 14px;
+}
+#footer .contact-us p {
+  margin: 50px 0;
+}
+#footer form input:last-child {
+  margin-top: 42px;
+}

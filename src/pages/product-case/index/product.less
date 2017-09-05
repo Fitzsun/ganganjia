@@ -1,0 +1,115 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+// banner
+#product-banner{
+  width:100%;
+  height:400px;
+  background:url('../../../public-resource/imgs/product-case/banner.jpg') no-repeat scroll center;
+}
+#main-content{
+  .container{
+    width:1200px;
+    margin:0 auto;
+    .icon-list{
+      width:100%;
+      display: flex;
+      justify-content: space-between;
+      margin:50px 0;
+      span{
+        display: inline-block;
+        width:50px;
+        white-space: nowrap;          
+      }
+      >li{
+        &:hover{
+          span{
+            color:#76c0ff;
+            border-bottom: 2px solid #76c0ff;
+          }
+        }
+      }
+    }
+    .list-item{
+      >li{
+        width:300px;
+        height:400px;
+        float: left;
+        border-bottom:1px solid #ccc;
+        border-right:1px solid #ccc; 
+        // property duration timing-function delay
+        img{
+          transition: all 1s ease-in-out;
+        }
+        &:hover{
+          img{
+            transform:scale(1.1);
+          }
+        }                         
+        &:nth-child(4),&:nth-child(8),&:nth-child(12),&:nth-child(16){
+          border-right:none;
+        }
+        >div{
+          width:100%;
+          overflow: hidden;
+        }
+        >p{
+          padding-left:10px;
+          margin:0;
+        }
+        >a{
+          display:block;
+          width:150px;
+          height:30px;
+          line-height: 30px;
+          text-align: center;  
+          margin:30px 10px 30px 140px;                                                                                                     
+          color:#dd5858;
+          font-size: 14px;
+          border-radius:15px;
+          border:1px solid #dd5858;
+          &:hover{
+            color:#fff;
+            background: #dd5858;
+          }
+        }
+      }
+      &+div{
+        width:800px;
+        height:30px;
+        line-height: 30px;
+        text-align: center;
+        margin:20px auto;
+        border:1px solid #f00;
+      }
+    }
+    .friendly-link{
+      width:1200px;
+      margin:0 auto;
+      text-align: left;
+      padding:50px 0;
+      p{
+        font-size: 18px;
+      }
+      li{
+        float:left;
+        width:180px;
+        a{
+          font-size: 14px;
+        }
+      }
+    }
+  }
+ 
+}
+
+#footer{
+  .contact-us{
+    p{
+      margin:50px 0;
+    }
+  }
+  form{
+    input:last-child{
+      margin-top:42px;
+    }
+  }
+}

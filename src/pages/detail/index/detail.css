@@ -1,0 +1,67 @@
+#banner {
+  width: 100%;
+  height: 400px;
+  background: url("../../../public-resource/imgs/company-news/banner.jpg") no-repeat scroll center;
+}
+#content {
+  width: 100%;
+}
+#content .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+#content .wrapper h4 {
+  font-weight: normal;
+  height: 40px;
+  vertical-align: middle;
+}
+#content .wrapper .news .heading p {
+  color: #333;
+}
+#content .wrapper .news .heading span {
+  padding: 0;
+}
+#content .wrapper .news .main-body {
+  font-size: 14px;
+  margin-top: 18px;
+  width: 100%;
+}
+#content .wrapper .news .main-body div {
+  margin: 20px 0;
+  width: 100%;
+  height: 431px;
+  line-height: 431px;
+  vertical-align: middle;
+  text-align: center;
+}
+#content .wrapper .news .foot {
+  font-size: 14px;
+  margin: 50px 0;
+}
+#content .wrapper .news .foot li {
+  margin: 5px 0;
+}
+#content .wrapper .friendly-link {
+  width: 100%;
+  margin: 50px auto;
+  text-align: left;
+}
+#content .wrapper .friendly-link p {
+  font-size: 18px;
+}
+#content .wrapper .friendly-link > ul {
+  display: flex;
+  justify-content: space-between;
+}
+#content .wrapper .friendly-link > ul li {
+  width: 180px;
+}
+#content .wrapper .friendly-link > ul li a {
+  font-size: 14px;
+}
+#footer .contact-us p {
+  margin: 50px 0;
+}
+#footer form input:last-child {
+  margin-top: 42px;
+}

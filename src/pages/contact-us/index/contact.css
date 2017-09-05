@@ -1,0 +1,124 @@
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+.pull-right {
+  float: right;
+}
+#banner {
+  width: 100%;
+  height: 400px;
+  background: url("../../../public-resource/imgs/contact-us/banner.jpg") no-repeat scroll center;
+}
+#content {
+  width: 100%;
+}
+#content .wrapper {
+  width: 1200px;
+  height: 500px;
+  margin: 30px auto 0;
+}
+#content .wrapper .address {
+  width: 100%;
+  height: 432px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+#content .wrapper .address .addressDesc {
+  width: 440px;
+}
+#content .wrapper .address .addressDesc > dt {
+  margin-left: 10px;
+  border-left: 2px solid #76c0ff;
+  padding-left: 10px;
+}
+#content .wrapper .address .addressDesc > dd {
+  line-height: 25px;
+  margin: 20px 0 20px 20px;
+  padding-left: 40px;
+}
+#content .wrapper .address .addressDesc > dd:first-of-type {
+  background: url("../../../public-resource/imgs/contact-us/address.png") no-repeat scroll 0 0;
+}
+#content .wrapper .address .addressDesc > dd:first-of-type span {
+  display: block;
+}
+#content .wrapper .address .addressDesc > dd:first-of-type dd {
+  margin: 10px 0;
+}
+#content .wrapper .address .addressDesc > dd:first-of-type dd:first-child span {
+  padding-left: 50px;
+}
+#content .wrapper .address .addressDesc > dd:first-of-type dd:nth-child(2) span {
+  padding-left: 150px;
+}
+#content .wrapper .address .addressDesc > dd:nth-of-type(2) {
+  background: url("../../../public-resource/imgs/contact-us/telphone.png") no-repeat 0 0;
+}
+#content .wrapper .address .addressDesc > dd:nth-of-type(2) dd {
+  margin: 10px 0;
+}
+#content .wrapper .address .addressDesc > dd:nth-of-type(3) {
+  background: url("../../../public-resource/imgs/contact-us/post code.png") no-repeat 0 0;
+}
+#content .wrapper .address .addressDesc > dd:nth-of-type(4) {
+  background: url("../../../public-resource/imgs/contact-us/email.png") no-repeat 0 0;
+}
+#content .wrapper .address b {
+  float: left;
+}
+#content .wrapper .formArea {
+  width: 100%;
+  padding: 0 175px;
+}
+#content .wrapper .formArea p {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 18px;
+  color: #ccc;
+}
+#content .wrapper .formArea form ::-webkit-input-placeholder {
+  color: #999;
+}
+#content .wrapper .formArea form :-ms-input-placeholder {
+  color: #999;
+}
+#content .wrapper .formArea form ::-moz-placeholder {
+  color: #999;
+}
+#content .wrapper .formArea form :-moz-placeholder {
+  color: #999;
+}
+#content .wrapper .formArea form input {
+  outline: none;
+  width: 400px;
+  height: 30px;
+  padding: 5px 15px;
+  margin: 40px 0 20px 0;
+  border-radius: 5px;
+  border: 1px solid #76c0ff;
+}
+#content .wrapper .formArea form div {
+  width: 100%;
+  height: 162px;
+  outline: none;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #76c0ff;
+}
+#content .wrapper .formArea form [contentEditable=true]:empty:not(:focus):before {
+  content: attr(data-text);
+  color: #999;
+}
+#content .wrapper .formArea form p {
+  text-align: center;
+}
+#content .wrapper .formArea form p input {
+  background: #76c0ff;
+  color: #fff;
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 10px rgba(118, 192, 255, 0.5);
+}

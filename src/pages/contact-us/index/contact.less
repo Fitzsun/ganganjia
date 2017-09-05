@@ -1,0 +1,129 @@
+dl,dt,dd{
+  margin:0;
+  padding:0;
+}
+.pull-right{
+  float:right;
+}
+#banner{
+  width:100%;
+  height:400px;
+  background: url("../../../public-resource/imgs/contact-us/banner.jpg") no-repeat scroll center;
+}
+#content{
+  width:100%;
+  .wrapper{
+    width:1200px;
+    height:500px;
+    margin:30px auto 0;
+    .address{
+      width:100%;
+      height: 432px;
+      padding:10px;
+      border:1px solid #ccc;
+      .addressDesc{
+        >dt{
+          margin-left:10px;
+          border-left:2px solid #76c0ff;
+          padding-left:10px;
+        }
+        width:440px;
+        >dd{
+          line-height: 25px;
+          margin:20px 0 20px 20px;
+          padding-left:40px;
+          &:first-of-type{
+            span{
+              display: block;
+            }
+            background: url("../../../public-resource/imgs/contact-us/address.png") no-repeat scroll 0 0;
+            dd{
+              margin:10px 0;
+              &:first-child{
+                span{
+                  padding-left:50px;
+                }
+              }
+              &:nth-child(2){
+                span{
+                  padding-left:150px;
+                }
+              }
+            }
+          }
+          &:nth-of-type(2){
+            dd{
+              margin:10px 0;
+            }
+            background:url("../../../public-resource/imgs/contact-us/telphone.png") no-repeat 0 0;
+          }
+          &:nth-of-type(3){
+            background:url("../../../public-resource/imgs/contact-us/post code.png") no-repeat 0 0;
+          }
+          &:nth-of-type(4){
+            background:url("../../../public-resource/imgs/contact-us/email.png") no-repeat 0 0;
+          }
+        }
+      }
+      b{
+        float:left;
+      }
+    }
+    .formArea{
+      width:100%;
+      padding:0 175px;
+      p{
+        text-align: center;
+        margin-top:50px;
+        font-size: 18px;
+        color:#ccc;
+      }
+      form{
+        ::-webkit-input-placeholder{
+          color:#999;
+        }
+        :-ms-input-placeholder{
+          color:#999;
+        }
+        ::-moz-placeholder{
+          color:#999;
+        }
+        :-moz-placeholder{
+          color:#999;
+        }
+        input{
+          outline:none;
+          width:400px;
+          height: 30px;
+          padding:5px 15px;
+          margin:40px 0 20px 0;
+          border-radius:5px;
+          border:1px solid #76c0ff;
+        }
+        div{
+          width:100%;
+          height:162px;
+          outline:none;
+          padding:15px;
+          border-radius: 5px;
+          border:1px solid #76c0ff;
+        }
+        [contentEditable=true]:empty:not(:focus):before{
+          content:attr(data-text);
+          color:#999;
+        }
+        p{
+          text-align: center;
+          input{
+            background:#76c0ff;
+            color:#fff;
+            height:40px;
+            border-radius:20px;
+            box-shadow: 5px 10px 10px rgba(118,192,255,.5);
+          }
+        }
+      }
+     
+    }
+  }
+}
