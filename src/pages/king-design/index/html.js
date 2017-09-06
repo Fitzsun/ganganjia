@@ -10,5 +10,5 @@ const kingDesignHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { kingDesignHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '设计国度',
 }).run(content(renderData));

@@ -10,5 +10,5 @@ const feedbackHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { feedbackHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '留言与反馈',
 }).run(content(renderData));

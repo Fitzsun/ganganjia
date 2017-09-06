@@ -1,4 +1,5 @@
 require('./desc.less');
+require('lessDir/base.less');
 const config = require('configModule');
 
 $(() => {
@@ -7,4 +8,9 @@ $(() => {
     console.log('如果你看到这个Log，那么这个版本实际上是开发用的版本');
     console.log(config.API_ROOT);
   }
+  $('ul.list-item>li').on('click', function() {
+    $(this).addClass('active').siblings().removeClass('active');
+    var index = $(this).index();
+    $(this).parent().next().children().eq(index).show().siblings().hide();
+  });
 });

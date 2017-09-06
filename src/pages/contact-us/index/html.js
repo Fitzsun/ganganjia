@@ -10,5 +10,5 @@ const cotactUsHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { cotactUsHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '联系我们',
 }).run(content(renderData));

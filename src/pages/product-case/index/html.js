@@ -10,5 +10,5 @@ const productCaseHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { productCaseHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '产品案例',
 }).run(content(renderData));

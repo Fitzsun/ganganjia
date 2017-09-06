@@ -1,3 +1,4 @@
+require('lessDir/base.less');
 require('./contact.less');
 const config = require('configModule');
 

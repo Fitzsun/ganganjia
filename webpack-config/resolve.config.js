@@ -26,6 +26,7 @@ module.exports = {
     /* layout */
     layout: path.resolve(dirVars.layoutDir, 'layout/html'),
     'layout-without-nav': path.resolve(dirVars.layoutDir, 'layout-without-nav/html'),
+    'layout-with-div': path.resolve(dirVars.layoutDir, 'layout-with-div/html'),
 
     /* logic */
     cm: path.resolve(dirVars.logicDir, 'common.module'),

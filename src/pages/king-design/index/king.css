@@ -29,6 +29,11 @@ li {
   display: flex;
   justify-content: space-between;
 }
+#content .wrapper .list-item a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
 #content .wrapper .list-item .active {
   background: #76c0ff;
 }
@@ -52,6 +57,12 @@ li {
 #content .wrapper > div {
   width: 100%;
 }
+#content .wrapper > div > .tab-content div {
+  display: block;
+}
+#content .wrapper .domestic,
+#content .wrapper .product,
+#content .wrapper .activity,
 #content .wrapper .list-news {
   width: 940px;
   height: 680px;
@@ -61,31 +72,49 @@ li {
   align-content: space-between;
   flex-wrap: wrap;
 }
+#content .wrapper .domestic > li,
+#content .wrapper .product > li,
+#content .wrapper .activity > li,
 #content .wrapper .list-news > li {
   width: 300px;
   height: 200px;
   padding: 10px;
 }
+#content .wrapper .domestic > li .pull-left,
+#content .wrapper .product > li .pull-left,
+#content .wrapper .activity > li .pull-left,
 #content .wrapper .list-news > li .pull-left {
   line-height: 180px;
   vertical-align: middle;
 }
+#content .wrapper .domestic > li div:last-child,
+#content .wrapper .product > li div:last-child,
+#content .wrapper .activity > li div:last-child,
 #content .wrapper .list-news > li div:last-child {
   font-size: 14px;
   height: 180px;
   position: relative;
   margin-left: 190px;
 }
+#content .wrapper .domestic > li div:last-child span,
+#content .wrapper .product > li div:last-child span,
+#content .wrapper .activity > li div:last-child span,
 #content .wrapper .list-news > li div:last-child span {
   color: #333;
   font-weight: bold;
 }
+#content .wrapper .domestic > li div:last-child p,
+#content .wrapper .product > li div:last-child p,
+#content .wrapper .activity > li div:last-child p,
 #content .wrapper .list-news > li div:last-child p {
   margin-top: 15px;
   *margin-top: 20px;
   height: 90px;
   color: #666;
 }
+#content .wrapper .domestic > li div:last-child a,
+#content .wrapper .product > li div:last-child a,
+#content .wrapper .activity > li div:last-child a,
 #content .wrapper .list-news > li div:last-child a {
   position: absolute;
   left: 2px;

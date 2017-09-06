@@ -1,4 +1,5 @@
 require('./product.less');
+require('lessDir/base.less');
 const config = require('configModule');
 
 $(() => {

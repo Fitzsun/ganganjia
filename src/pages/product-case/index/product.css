@@ -15,8 +15,9 @@
 }
 #main-content .container .icon-list span {
   display: inline-block;
-  width: 50px;
+  width: 100%;
   white-space: nowrap;
+  border-bottom: 2px solid transparent;
 }
 #main-content .container .icon-list > li:hover span {
   color: #76c0ff;
@@ -31,9 +32,6 @@
 }
 #main-content .container .list-item > li img {
   transition: all 1s ease-in-out;
-}
-#main-content .container .list-item > li:hover img {
-  transform: scale(1.1);
 }
 #main-content .container .list-item > li:nth-child(4),
 #main-content .container .list-item > li:nth-child(8),

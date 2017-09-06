@@ -28,6 +28,11 @@ ul,li{
       // 使用flex布局要去除内容生成,要不然space-between...
       display: flex;
       justify-content:space-between;
+      a{
+        display: inline-block;
+        width:100%;
+        height:100%;
+      }
       .active{
         background:rgb(118,192,255);
         a{
@@ -51,10 +56,15 @@ ul,li{
     }
     >div{
       width:100%;
+      >.tab-content{
+        div{
+          display: block;
+        }
+      }
     }
-    .list-news{
+    .domestic,.product,.activity,.list-news{
       width:940px;
-      height:680px;
+      height:680px;//固定宽度
       margin:74px auto 0;
       display: flex;
       justify-content: space-between;

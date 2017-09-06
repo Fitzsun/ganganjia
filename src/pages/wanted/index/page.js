@@ -1,4 +1,5 @@
 require('./wanted.less');
+require('lessDir/base.less');
 const config = require('configModule');
 
 $(() => {
@@ -7,4 +8,22 @@ $(() => {
     console.log('如果你看到这个Log，那么这个版本实际上是开发用的版本');
     console.log(config.API_ROOT);
   }
+  $('.list-item').on('click', 'li', function() {
+    $(this).addClass('active').siblings().removeClass('active');
+    // var href = $(this).children().attr('href');
+    // $.ajax({
+    //   type: 'get',
+    //   url: href,
+    //   success: function(data) {
+    //     var html = '';
+    //     for (var i = 0; i < data.length; i++) {
+    //       var obj = data[i];
+    //       html += `
+    //         ${obj}
+    //       `;
+    //     }
+    //     $('.demand').html(html);
+    //   },
+    // });
+  });
 });

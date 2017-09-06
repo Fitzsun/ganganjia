@@ -10,5 +10,5 @@ const branchCompanyHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { branchCompanyHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '旗下分公司',
 }).run(content(renderData));

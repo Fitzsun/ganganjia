@@ -10,5 +10,5 @@ const wantedHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { wantedHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '人才招聘',
 }).run(content(renderData));

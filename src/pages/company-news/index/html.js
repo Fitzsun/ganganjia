@@ -10,5 +10,5 @@ const companyNewsHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { companyNewsHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '新闻动态',
 }).run(content(renderData));

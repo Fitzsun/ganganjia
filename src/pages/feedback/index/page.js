@@ -1,4 +1,5 @@
 require('./feedback.less');
+require('lessDir/base.less');
 const config = require('configModule');
 
 $(() => {

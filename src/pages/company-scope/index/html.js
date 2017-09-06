@@ -10,5 +10,5 @@ const companyScopeHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { companyScopeHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '经营范围',
 }).run(content(renderData));

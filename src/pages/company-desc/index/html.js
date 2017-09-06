@@ -10,5 +10,5 @@ const companyDescHtml = require('./content.ejs')({
 const renderData = Object.assign({}, dirsConfig, { companyDescHtml });
 
 module.exports = layout.init({
-  pageTitle: '',
+  pageTitle: '公司简介',
 }).run(content(renderData));
